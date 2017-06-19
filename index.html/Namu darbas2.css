@@ -1,0 +1,33 @@
+body{
+    overflow: scroll;
+    background-image: url("../Pictures/Picture.jpeg");
+    background-repeat: repeat;
+    margin: 100px 750px 50px 750px;
+}
+th {
+
+    background-color: #0d3b02e6;
+    color: white
+
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 25px;
+    text-align: left;
+    border-bottom: 3px solid grey;
+
+}
+
+
+td{
+
+    background-color: #c71a1400;
+    color: grey;
+}
+
+#td1, #td2, #td3 {
+
+    background-color: white;
+}

@@ -4,8 +4,12 @@ body {
     background-repeat: repeat;
     margin: auto;
 }
+table {
+    width: 30%;
+    margin: 30px auto;
+}
 
-table.table.table1.table2, th, td {
+table, th, td {
     border: 1px solid grey;
     border-collapse: collapse;
     padding: 25px;
@@ -26,13 +30,4 @@ td {
 
 td.one {
     background-color: white;
-}
-table.table {
-    margin:1px;
-}
-table.table1 {
-    margin: auto;
-}
-table.table2 {
-    margin: 0px 0px 0px 1000px;
 }

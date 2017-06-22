@@ -1,33 +1,38 @@
-body{
+body {
     overflow: scroll;
     background-image: url("../img/Picture.jpeg");
     background-repeat: repeat;
-    margin: 100px 750px 50px 750px;
-}
-th {
-
-    background-color: #0d3b02e6;
-    color: white
-
+    margin: auto;
 }
 
-table, th, td {
+table.table.table1.table2, th, td {
     border: 1px solid grey;
     border-collapse: collapse;
     padding: 25px;
     text-align: left;
     border-bottom: 3px solid grey;
+    border-left: none;
+}
+th {
+    background-color: #0d3b02e6;
+    color: white
 
 }
 
-
-td{
-
+td {
     background-color: #c71a1400;
     color: grey;
 }
 
-#td1, #td2, #td3 {
-
+td.one {
     background-color: white;
+}
+table.table {
+    margin:1px;
+}
+table.table1 {
+    margin: auto;
+}
+table.table2 {
+    margin: 0px 0px 0px 1000px;
 }

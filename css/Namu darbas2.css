@@ -1,9 +1,21 @@
-body{
-    overflow: scroll;
+body {
     background-image: url("../img/Picture.jpeg");
+    overflow: scroll;
     background-repeat: repeat;
-    margin: 100px 750px 50px 750px;
 }
+
+div {
+    margin: 30px auto;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 25px;
+    border-bottom: 3px solid grey;
+    border-left: none;
+}
+
 th {
 
     background-color: #0d3b02e6;
@@ -11,23 +23,12 @@ th {
 
 }
 
-table, th, td {
-    border: 1px solid grey;
-    border-collapse: collapse;
-    padding: 25px;
-    text-align: left;
-    border-bottom: 3px solid grey;
-
-}
-
-
-td{
+td {
 
     background-color: #c71a1400;
     color: grey;
 }
-
-#td1, #td2, #td3 {
-
-    background-color: white;
+td.td1 {
+    background-color:white;
 }
+

@@ -1,11 +1,7 @@
 body {
-    background-image: url("../img/Picture.jpeg");
+    background-image: url("../img/Picture2.jpeg");
     overflow: scroll;
     background-repeat: repeat;
-}
-
-div {
-    margin: 30px auto;
 }
 
 table, th, td {
@@ -14,21 +10,22 @@ table, th, td {
     padding: 25px;
     border-bottom: 3px solid grey;
     border-left: none;
+    margin: 30px auto;
+    width: 400px;
 }
 
 th {
-
     background-color: #0d3b02e6;
     color: white
 
 }
 
 td {
-
     background-color: #c71a1400;
     color: grey;
 }
+
 td.td1 {
-    background-color:white;
+    background-color: white;
 }
 
